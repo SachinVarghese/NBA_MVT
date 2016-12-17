@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Most Valuble Team</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<h1>Most Valuble Team</h1>
+<div id="start" style="display: flex">
+    <div class="col-md-12" id="starters"></div>
+    <div>
+        <div style='display: flex; width: 100%'><p style='width: 80%; padding-left: 5px;font-family: monospace;'>Season</p><input type='radio' id='season' name="nba" style='margin:5px;' checked></div>
+        <div style='display: flex; width: 100%'><p style='width: 80%; padding-left: 5px;font-family: monospace;'>Recent</p><input type='radio' id='daily' name="nba" style='margin:5px'></div>
+        <hr>
+        <div id="weights"></div>
+        <hr>
+    </div>
+</div>
+<div class="col-md-12" id="bench"></div>
+</body>
+</html>

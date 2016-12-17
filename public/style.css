@@ -1,0 +1,30 @@
+h1 {
+    margin: 10px 0;
+    color: gold;
+    text-align: center;
+}
+
+body {
+    background-color:darkblue;
+}
+
+#starters {
+    background-image: url('http://s1.thingpic.com/images/nT/aHRf1fwQSj7fyzPK8BTK3p5q.png');
+    background-repeat: round;
+}
+button {
+    background-color: honeydew;
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+input {
+    border-radius: 20%;
+}
+
+hr {
+    border-top: 3px solid rgba(255, 255, 255, 1);
+}
